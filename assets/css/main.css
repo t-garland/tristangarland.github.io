@@ -2150,15 +2150,18 @@ input, select, textarea {
 
 		/* Custom avatar size */
 		#header .image.avatar {
-			width: 12em;
-			height: 12em;
-			margin: 0 auto 2em auto;
+			margin: 0 0 1em 0;
+			width: 8em;
+			height: 8em;
+			border-radius: 50%;
+			overflow: hidden;
 		}
 
 		#header .image.avatar img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			border-radius: 50%;
 		}
 
 /* List */
@@ -2655,7 +2658,17 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8em;
+			height: 8em;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+
+		#header .image.avatar img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 50%;
 		}
 
 /* Footer */
